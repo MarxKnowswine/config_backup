@@ -16,11 +16,11 @@ PASSWORD = 'admin'
 secret = 'admin'
 
 ###start FOR ...in
-f = open('switches')
+f = open('switches_inventory')
 for ip in f.readlines():
         ip = ip.strip()
         ###prefix files for backup
-        filename_prefix ='/home/gns3-user/script/' + ip
+        filename_prefix ='/home/marcello/script/' + ip
 
         ###session start
         client = paramiko.SSHClient()
