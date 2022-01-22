@@ -38,7 +38,7 @@ for ip in f.readlines():
         chan.send('term len 0\n')
         time.sleep(1)
         ###show config and write output
-        chan.send('sh run\n')
+        chan.send('sh tech support\n')
         time.sleep(20)
         output = chan.recv(999999)
         ###show output config and write file with prefix, date and time
