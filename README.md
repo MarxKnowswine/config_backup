@@ -7,5 +7,5 @@ This project aims to backup running configuration from a series of Dell Switches
 
 # Usage
 The script takes the output of "show running configuration" command on the switches listed in the "switches_inventory" file.</br> The output is saved on a file named after the hostname or IP address, as specified in "switches_inventory" file</br>
-<strong>It is needed to modify the destination folder in line 23</strong>
+<strong>It is needed to modify:</br>- the destination folder in line 23</br>- credentials in line 14, 15 and 16</strong>
 
